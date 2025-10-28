@@ -37,6 +37,189 @@ ol {
   list-style: none;
 }
 
+.page {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.content {
+  margin: auto;
+  display: flex;
+  width: 1140px;
+  height: 544px;
+  justify-content: center;
+  align-content: center;
+  gap: 0 30px;
+}
+
+.result {
+  display: flex; 
+  flex-direction: column;
+  justify-self: start;
+  align-self: end;
+  gap: 16px 0;
+}
+
+.result__video {
+  display: flex;
+  justify-content: start;
+  align-items: end;
+  width: 711px;
+  height: auto;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: row;
+  width: 711px;
+  height: 54px;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.search-form__fieldset {
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+
+.search-form__fieldset-title {
+  font-family: Fira Sans Condensed;
+  font-weight: 400;
+  font-style: regular;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+.button {
+  color: white;
+  background-color: #1b1919;
+  border: 1px solid white;
+  font-family: Fira Sans Condensed;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+
+.search-form__submit-button {
+  display: flex;
+  align-self: end;
+  width: 194px;
+  height: 34px;
+  justify-content: center;
+  align-items: center;
+}
+
+.content__details {
+  display: flex;
+  flex-direction: column;
+  width: 399px;
+  height: 534px;
+}
+
+.title {
+  font-family: Oswald, sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 75px;
+  text-transform: uppercase;
+  line-height: 94%;
+  letter-spacing: 0;
+}
+
+.content__accent {
+  color: #545050;
+}
+
+.content__video-card-thumbnail {
+  display: flex;
+  flex-direction: row;
+  width: 194px;
+  height: auto;
+}
+
+.content__video-card-description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 6px 0;
+  width: 196px;
+  height: 103px;
+}
+
+.content__video-card-title {
+  font-family: Oswald, sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.content__video-card-description {
+  font-family: Fira Sans Condensed, Oswald, sans-serif;
+  font-weight: 400;
+  font-style: regular;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: left;
+  line-height: 16.2px;
+  letter-spacing: 0;
+  color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.content__card-link {
+  text-decoration: none;
+}
+
+.content__list-container {
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+
+.content__list-item {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+
+.content__details {
+  display: flex;
+  flex-direction: column;
+  width: 399px;
+  height: 534px;
+  gap: 26px;
+}
+
+.content__video-card {
+  display: flex;
+  justify-content: end;
+}
+
+.more-button-template {
+  height: 34px;
+}
+
+/* .more-button {
+  width: 106px;
+  height: 22px;
+} */
+
 /* Кастомный скроллбар */
 .custom-scrollbar::-webkit-scrollbar {
   width: 4px;
